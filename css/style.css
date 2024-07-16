@@ -1,0 +1,87 @@
+*{
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+}
+/* font-family: "Work Sans", sans-serif; */
+@import url('https://fonts.googleapis.com/css2?family=Work+Sans:ital,wght@0,100..900;1,100..900&display=swap');
+
+
+.container{
+    width: 1000px;
+    margin: 0 auto;
+}
+
+/* hedar-style-start */
+.hedar-bg{
+    background-color: #FFEDD8;
+}
+.hedar-flex{
+    display: flex;
+    justify-content: space-between;
+}
+
+.hedar-menu .menu{
+    display: flex;
+    gap: 35px;
+    margin-top: 5px;
+}
+.hedar-menu .menu li{
+    list-style: none;
+
+}
+.hedar-menu .menu li a{
+    text-decoration: none;
+    font-size: 20px ;
+    font-family: "Work Sans", sans-serif;
+    color: #424242;
+
+}
+.hedar-name h3{
+    font-size: 25px;
+    font-weight: bold;
+    font-family: "Work Sans", sans-serif;
+
+}
+.hedar-description .sub-des h1{
+    text-align: center;
+    margin-top: 60px;
+    font-size: 64px;
+    font-weight: bold;
+    font-family: "Work Sans", sans-serif;
+    margin-bottom: 17px;
+
+    
+}
+.hedar-description .sub-des p{
+    text-align: center;
+    font-size: 18px;
+    font-family: "Work Sans", sans-serif;
+
+}
+.hedar-description .btn{
+    text-align: center;
+
+}
+.hedar-description button{
+    margin-top: 15px;
+    padding: 15px 30px 15px 30px;
+    border-radius: 7px;
+    background-color: #fff;
+    margin-bottom: 15px;
+    border: none;
+    background-color: #FF900E;
+    
+}
+.hedar-description button a{
+    font-size: 18px;
+    text-decoration: none;
+    font-family: "Work Sans", sans-serif;
+    color: #424242;
+
+}
+.hedar-img img{
+    width: 100%;
+}
+
+/* hedar-style-end */
